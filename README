@@ -1,0 +1,50 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=747
+
+This is intellisense for Java, XML, HTML, C++, JSP, SQL, C#. This new version is incompatible with the previous version(s).
+IMPORTANT: Uninstall any previous versions if you have and then install the new version. 
+
+THIS IS FOR WINDOWS ONLY! 
+
+Usage Tips
+----------------
+1. Pressing '.' (in java) or pressing '<'  in XML/Html brings the list window
+2. Pressing <C-Space> brings context sensitive lists (for both java and HTML/XML).
+In HTML/XML this brings the list of attributes for the tags, or auto-completes the attributes)
+Try C-Space at different points.
+
+While tool tip is shown, you can use mouse to move to next function or use <C-Left> or <C-Right>
+
+<C-S-Space> in java, brings the tooltip for the current function.
+
+SQL
+------
+The SQL plugin provides completion for both static and dynamic data.  A tutorial is provided in intellisense.txt.  See :h intellisense-sql.
+
+Dynamic lists (drawn directly from your database):
+    Table List 
+        - All tables for all schema owners
+    Procedure List
+        - All stored procedures for all schema owners
+    View List
+        - All stored procedures for all schema owners
+    Column List
+        - For the selected table, the columns that are part of the table    
+    Table / Procedure Description
+        - For the selected table/procedure, describe it    
+
+
+Static lists (drawn directly from your Vim SQL syntax file):
+    Statements
+        - Select, Insert, Update, Delete, Create, Alter, ...
+    Functions
+        - Min, Max, Trim, Round, Date, ...
+    Keywords
+        - Index, Database, Having, Group, With
+    Types
+        - Integer, Char, Varchar, Date, DateTime, Timestamp, ...
+    Operators
+        - Like, Where, And, Or, In, Exists, ...
+    Database Options
+        - Isolation_level, On_error, Qualify_owners, Fire_triggers
+
+
